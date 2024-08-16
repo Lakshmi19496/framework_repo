@@ -3,6 +3,7 @@
   <groupId>framework_git</groupId>
   <artifactId>framework_git</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
    <dependencies>
 	<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>
@@ -47,6 +48,7 @@
             <version>1.16.20</version>
             <scope>provided</scope>
         </dependency>
+
 
   </dependencies>
  
@@ -108,5 +110,7 @@
 		</plugins>
 	</build>
 	
-	</profile>	</profiles>
+	</profile>	
+	</profiles>
+	
 </project>
