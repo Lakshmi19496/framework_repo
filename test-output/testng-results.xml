@@ -1,20 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-17T11:09:35 IST" name="Suite" finished-at="2024-08-17T11:09:35 IST" duration-ms="97">
+  <suite started-at="2024-08-17T13:20:11 IST" name="Default suite" finished-at="2024-08-17T13:20:12 IST" duration-ms="1366">
     <groups>
-      <group name="ST">
-        <method signature="CreateContactTest.createContactTest()[pri:0, instance:createorgTest.CreateContactTest@3349e9bb]" name="createContactTest" class="createorgTest.CreateContactTest"/>
-      </group> <!-- ST -->
     </groups>
-    <test started-at="2024-08-17T11:09:35 IST" name="Test" finished-at="2024-08-17T11:09:35 IST" duration-ms="97">
-      <class name="createorgTest.CreateContactTest">
-        <test-method signature="createContactTest()[pri:0, instance:createorgTest.CreateContactTest@3349e9bb]" started-at="2024-08-17T11:09:35 IST" name="createContactTest" finished-at="2024-08-17T11:09:35 IST" duration-ms="18" status="PASS">
+    <test started-at="2024-08-17T13:20:11 IST" name="Default test" finished-at="2024-08-17T13:20:12 IST" duration-ms="1366">
+      <class name="createorgTest.DataproviderWithExcel">
+        <test-method signature="sample(java.lang.String,java.lang.String)[pri:0, instance:createorgTest.DataproviderWithExcel@9597028]" started-at="2024-08-17T13:20:12 IST" name="sample" data-provider="sentData" finished-at="2024-08-17T13:20:12 IST" duration-ms="22" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[one-plus]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createContactTest -->
-      </class> <!-- createorgTest.CreateContactTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- sample -->
+        <test-method signature="sample(java.lang.String,java.lang.String)[pri:0, instance:createorgTest.DataproviderWithExcel@9597028]" started-at="2024-08-17T13:20:12 IST" name="sample" data-provider="sentData" finished-at="2024-08-17T13:20:12 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[moto]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample -->
+        <test-method signature="sample(java.lang.String,java.lang.String)[pri:0, instance:createorgTest.DataproviderWithExcel@9597028]" started-at="2024-08-17T13:20:12 IST" name="sample" data-provider="sentData" finished-at="2024-08-17T13:20:12 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample -->
+      </class> <!-- createorgTest.DataproviderWithExcel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
