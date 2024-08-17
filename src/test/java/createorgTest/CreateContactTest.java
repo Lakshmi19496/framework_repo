@@ -1,5 +1,6 @@
 package createorgTest;
 
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -15,6 +16,10 @@ public class CreateContactTest {
 	@BeforeClass(alwaysRun = true)
 	public void openBrowser() {
 		System.out.println("openBrowser");
+	}
+	@AfterClass(alwaysRun = true)
+	public void closeBrowser() {
+		System.out.println("closeBrowser");
 	}
 	
 
