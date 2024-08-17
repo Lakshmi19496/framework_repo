@@ -8,6 +8,7 @@ public class CreateContactTest {
 	@Test(groups="ST")
 	public void createContactTest() {
 	System.out.println("====createContactTest====");	
+	System.out.println("====createContactTest====");	
 	}
 	@Test(groups="RT")
 	public void modifyContactTest() {
