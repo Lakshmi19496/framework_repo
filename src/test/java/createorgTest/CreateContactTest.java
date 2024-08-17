@@ -1,15 +1,21 @@
 package createorgTest;
 
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 public class CreateContactTest {
-	@Test
+	@Test(groups="ST")
 	public void createContactTest() {
 	System.out.println("====createContactTest====");	
 	}
-	@Test
+	@Test(groups="RT")
 	public void modifyContactTest() {
 	System.out.println("====createContactTest====");	
 	}
+	@BeforeClass(alwaysRun = true)
+	public void openBrowser() {
+		System.out.println("openBrowser");
+	}
+	
 
 }
